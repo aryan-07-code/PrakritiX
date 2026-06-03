@@ -1,0 +1,7 @@
+{
+  "name": "PrakritiX",
+  "description": "A comprehensive multi-page futuristic website for smart waste management with AI-powered garbage classification.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
