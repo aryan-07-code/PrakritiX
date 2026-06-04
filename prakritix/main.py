@@ -26,10 +26,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Configure Google Generative AI
-# Ensure you set GEMINI_API_KEY in your environment variables or .env file
-API_KEY = os.getenv("GEMINI_API_KEY", "YOUR_PLACEHOLDER_API_KEY")
-genai.configure(api_key="AIzaSyCBBj1aBmoMcujYI6o7BAizX8Y3ghD0ZCc")
+
 
 # Initialize Serial Connection
 SERIAL_PORT = os.getenv("SERIAL_PORT", "/dev/ttyUSB0") # Use 'COM3' or similar on Windows
